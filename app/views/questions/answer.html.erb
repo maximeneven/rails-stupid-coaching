@@ -1,0 +1,16 @@
+<div class="container">
+  <h2 id="title"> Answer </h2>
+  <div class ="question">
+  <%= @questions %>
+  <p>-You</p>
+  </div>
+  <br>
+  <div class ="response">
+  <%= @answer %>
+  <p>-Coach</p>
+  </div>
+  <br>
+  <div class="link">
+  <%= link_to "Ask again", ask_path %>
+  </div>
+</div>

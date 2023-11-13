@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+#title {
+  text-decoration: underline;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xx-large;
+}
+.response {
+  
+}
+
+.container {
+  background-color: white;
+  padding: 20px ;
+}
